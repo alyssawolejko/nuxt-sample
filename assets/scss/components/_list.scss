@@ -1,0 +1,39 @@
+.list{
+  border:0;
+  width: 45%;
+  margin: 5% auto;
+
+  .item-primary {
+    line-height: 42px !important;
+    top:2px !important;
+    margin: 4px -80px !important;
+    font-weight: 800;
+    color: $black;
+    font-size: 40px !important;
+    border-radius:0% !important;
+  }
+
+  &.col-2{
+    .item-secondary{
+      width: auto;
+
+    }
+  }
+  .item{
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+    width: 45%;
+    background-color: $grey;
+    margin: 5% 5% 0% 0%;
+    border-bottom: 4px solid #b1b4b8;
+    border-left: 2px solid #b1b4b8;
+    border-right: 2px solid #b1b4b8;
+    cursor: pointer;
+    
+    >.item-content{
+      padding: 20px 0;
+      font-size: 35px;
+    }
+  }
+}

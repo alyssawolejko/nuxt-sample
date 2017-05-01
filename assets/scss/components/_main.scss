@@ -1,0 +1,19 @@
+.main{
+  &__header{
+    &--logo{
+      position: absolute;
+    }
+    &--banner{
+      background: url('/statics/images/abbott-header.jpg');
+      width: 100%;
+      height: 30vh;
+      background-size: cover;
+      background-position: 50% 50%;
+      &-bottom{
+        width: 100%;
+        height: 10vh;
+        background: linear-gradient(to right, #ba2592 0%,#151a9b 100%);
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+.m{
+	&-icon{
+		width: 50px;
+		margin:5px;
+	}
+}
+.l{
+	display:flex;
+	flex-flow:column;
+	justify-content: space-between;
+	background:#fff;
+	color:#000;
+	&-top{
+		display:flex;
+		align-items:flex-start;
+		flex-wrap: wrap;
+		.l-text{
+			margin:$margin*2 $margin;
+		}
+	}
+	&-middle{
+		flex:1;
+		display:flex;
+		align-items:center;
+	}
+	&-bottom{
+
+	}
+	&-icon{
+		width:75px;
+		margin:$margin auto;
+	}
+	&-text{
+		font-size:1.25rem;
+		margin:0 $margin;
+	}
+	&-next{
+		width:100%;
+		padding:0 5px 5px;
+		button{
+			width:100%;
+			font-size:1.15rem;
+			line-height:1em;
+			padding:0.65em 0;
+			i{
+				margin-left:0.25em;
+			}
+		}
+	}
+	&-help{
+		font-size:0.65rem;
+		padding:1em 0;
+		color:#fff;
+		text-align:center;
+	}
+	&-prompt{
+		color:#fff;
+		margin:0 $margin;
+	}
+	&-survey{
+		margin:$margin;
+	}
+}
+
+.xl{
+	&-icon{
+		width: 150px;
+		margin:$margin auto;
+	}
+}

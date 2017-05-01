@@ -1,0 +1,63 @@
+//Typography
+$gotham:												"Gotham", "Futura","Helvetica Neue","Helvetica",Arial,sans-serif;
+$font-small: 14px;
+
+//Color
+$orange:											#f47e23;
+
+//Z-index
+$z1:												100;
+$z2:												200;
+$z3:												300;
+$z4:												400;
+$z5:												500;
+$z6:												600;
+$z7:												700;
+$z8:												800;
+$z9:												900;
+
+//Breakpoints
+$desktop-s:											max-width 1366px;
+$tablet-l:											max-width 1024px;
+$tablet-p:											max-width 768px;
+$mobile:											max-width 767px;
+$height-front: 										max-height 950px;
+$height-m:											max-height 768px;
+$height-s:											max-height 600px;
+$height-xs:											max-height 480px;
+
+//Transitions
+$eo100:												100ms ease-out all;
+$eo250:												250ms ease-out all;
+$eo500:												500ms ease-out all;
+$l100:												100ms linear all;
+$l250:												250ms linear all;
+$l500:												500ms linear all;
+
+//Settings
+$setting--sidebar:									400px;
+$setting--sidebar--m:								225px;
+$setting--sidebar--s:								175px;
+$setting--border-radius:							0.4em;
+$setting--overlay-opacity:							rgba(0,0,0,0.5);
+$setting--box-shadow:								0 0em 3em rgba(0,0,0,0.25);
+
+//Layout Settings
+@mixin bg--blur(){
+	background:url('../../statics/bg-img.png');
+	background-size:cover;
+}
+
+$margin:											1rem;
+$radius:											3px;
+
+
+
+//Colors
+$primary-blue: #1D8DFF;
+$light-grey: #F1F1F1;
+$grey: #ccc;
+$dark-grey: #ddd;
+$white: #fff;
+$black-green: #1A1A1A;
+$black: #000;
